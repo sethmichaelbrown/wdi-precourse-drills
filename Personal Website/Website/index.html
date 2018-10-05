@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hello World!!</title>
+  <style>
+
+
+
+  </style>
+
+<h1>A Blank Webpage</h1>
+
+  <script>
+
+  function convert(str) {
+    // validInut(str)
+    if (typeof str !== 'string') {
+      return "go away"
+    }
+
+    let result = ''
+    for (let char of str) {
+      result += replaceChar(char,map)
+    }
+
+    return result
+
+    // return str.split('').map(char => replaceChar(char, map)).join('')
+  }
+
+  const map = {
+    a: '4',
+    e: '3',
+    i: '1',
+    o: '0',
+    s: '$'
+  }
+
+  function replaceChar(char, map){
+    let replacementChar = map[char.toLowerCase()]
+
+    return replacementChar ? replacementChar : char
+  }
+
+  console.log("checking...", convert('Javascript'))
+
+
+  </script>
+</head>
+<body>
+  <style>
+    <div = 'Flashlight'
+    height: 200px
+    width: 200px  >
+
+
+  </style>
+
+
+</body>
+</html>

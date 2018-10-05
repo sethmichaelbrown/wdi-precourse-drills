@@ -1,0 +1,126 @@
+/* Normalize */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Background Image */
+
+body {
+  background-image: url("/Users/smb/Documents/Personal Website/Website/Images/IMG_2142.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Navigation Bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* Search Bar */
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* Gallery */
+
+/* The grid: Four equal columns that floats next to each other */
+
+.column {
+  margin-left: 5px;
+  float: left;
+  width: 10.5%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+
+.column img {
+  opacity: .8;
+  cursor: pointer;
+  overflow: hidden;
+  height: 110px;
+  width: 100px;
+}
+
+.column img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+
+.container {
+  position: absolute;
+  display: none;
+}
+
+/* Expanding image text */
+
+#imgtext {
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  bottom: 15px;
+  left: 15px;
+  color: #fffff0;
+  font-size: 32px;
+}
+
+/* Closable button inside the image */
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #fffff0;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.toprow {
+  background-color: #2c3539;
+}

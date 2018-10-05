@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact | Seth Michael Brown</title>
+  <link rel="stylesheet" href="/Users/smb/Documents/Personal Website/Website/Contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Lato" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="topnav">
+    <ul>
+      <li><a href="/Users/smb/Documents/Personal Website/Website/home.html">Home</a></li>
+      <li><a href="/Users/smb/Documents/Personal Website/Website/about.html">About</a></li>
+      <li><a href="/Users/smb/Documents/Personal Website/Website/photos.html">Photos</a></li>
+      <li><a href="https://www.linkedin.com/in/seth-brown1/" target="_blank">Social</a></li>
+      <li><a href="/Users/smb/Documents/Personal Website/Website/Contact.html">Contact</a></li>
+      <input type="text" placeholder="Search...">
+    </ul>
+  </div>
+
+  <!-- Email Option -->
+  <div class="EmailMessage">
+    <h1>Send Me an Email:</h1>
+    <form action="mailto:sethmichaelbrown@gmail.com" method="post" enctype="text/plain">
+      Name:<br>
+      <input class="info" type="text" name="name"><br> E-mail:
+      <br>
+      <input class="info" type="text" name="mail"><br> Message:
+      <br>
+      <input class="message" type="text" name="comment" size="50"><br><br>
+      <input class="button" type="submit" value="Send">
+      <script>
+      $("#button").click( function()
+         {
+           alert('Thanks for your email!');
+         }
+      );
+      </script>
+      <input class="button" type="reset" value="Reset">
+
+    </form>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+/* Normalize */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Background Image */
+
+body {
+  background-image: url("/Users/smb/Documents/Personal Website/Website/Images/IMG_4549.JPG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Navigation Bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* Search Bar */
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+h1 {
+  text-align: left;
+  margin-right: 75px;
+  margin-left: 675px;
+  margin-top: 50px;
+  font-family: 'Cinzel', serif;
+  color: #fffff0;
+}
+
+
+div.block p {
+  margin: 5%;
+  font-weight: bold;
+  color: #fffff0;
+}
+
+div.block {
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+  margin-right: 25px;
+  margin-left: 675px;
+  background-color: #2c3539;
+  border: 1px solid black;
+  opacity: .9;
+}
